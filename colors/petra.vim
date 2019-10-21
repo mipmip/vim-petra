@@ -10,6 +10,7 @@ endif
 
 let g:colors_name = "petra"
 
+hi FoldColumn    guifg=#aaaaaa  guibg=#382625  gui=bold
 hi Cursor ctermfg=52 ctermbg=253 cterm=NONE guifg=#372725 guibg=#DBF5F3 gui=NONE
 hi Visual ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#2e201f gui=NONE
@@ -63,6 +64,7 @@ hi Todo ctermfg=59 ctermbg=NONE cterm=inverse,bold guifg=#6b4e32 guibg=NONE gui=
 hi Type ctermfg=3 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi rubyClass ctermfg=9 ctermbg=NONE cterm=NONE guifg=#ef5d32 guibg=NONE gui=NONE
+hi rubyDefine ctermfg=9 ctermbg=NONE cterm=NONE guifg=#ef5d32 guibg=NONE gui=NONE
 hi rubyFunction ctermfg=3 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi rubySymbol ctermfg=4 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
